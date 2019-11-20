@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>自动消耗漫读券</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+      #function_div {
+        margin: 10px;
+      }
+    </style>
+    <script src="jquery-3.3.1.min.js"></script>
+	  <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div id="input_div">
+        <input id = "input_step" type="text" name="Step" placeholder="每次消耗多少张漫读券"/>
+    </div>
+    <div id="function_div">
+      	<button id="button_start">开始</button> 
+        
+        <button id="button_stop">停止</button><br/>
+    </div>
+    <div id="log_div">
+
+    </div>
+  </body>
+</html>
