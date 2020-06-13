@@ -3,18 +3,19 @@ class ComicAutoCostCoupon {
 	//步长 (每次执行命令消耗 漫读券的个数 )
 	static COMIC_COUPON_SETP = 1;
 
+	
 	//获取漫画详情url
-	static COMIC_DETAIL_URL = "http://manga.bilibili.com/twirp/comic.v2.Comic/ComicDetail?device=pc&platform=web";
+	static COMIC_DETAIL_URL = "https://manga.bilibili.com/twirp/comic.v2.Comic/ComicDetail?device=pc&platform=web";
 
 	//获取推荐漫读券url
-	static COMIC_GET_RECOMMOND_ID = "http://manga.bilibili.com/twirp/comic.v1.Comic/GetEpisodeBuyInfo?device=pc&platform=web";
+	static COMIC_GET_RECOMMOND_ID = "https://manga.bilibili.com/twirp/comic.v1.Comic/GetEpisodeBuyInfo?device=pc&platform=web";
 
 	//消费券接口 !!!
-	static COMIC_COUPON_COST = "http://manga.bilibili.com/twirp/comic.v1.Comic/BuyEpisode?device=pc&platform=web";
+	static COMIC_COUPON_COST = "https://manga.bilibili.com/twirp/comic.v1.Comic/BuyEpisode?device=pc&platform=web";
 
 	static STAOP = false;
 
-	static DELAY_TIME = 1; //延迟1 s
+	static DELAY_TIME = 0; //延迟1 s
 
 	//构造函数  漫画的id
 	constructor(comic_id){
